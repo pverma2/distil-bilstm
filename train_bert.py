@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.utils.rnn import pad_packed_sequence, pack_padded_sequence
-from torchtext.legacy import data
+from torchtext import data
 from torchtext.vocab import pretrained_aliases, Vocab
 from transformers import (BertConfig, BertForSequenceClassification, BertTokenizer)
 
